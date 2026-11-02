@@ -184,6 +184,8 @@ contract RotaTest is Test {
         vm.expectRevert(Rota.NothingToWithdraw.selector);
         rota.withdraw();
     }
+
+    function test_CreateRota() public {
         uint256 id = _createDefaultRota();
         assertEq(id, 1);
         assertEq(rota.rotaCount(), 1);
