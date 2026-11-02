@@ -9,9 +9,11 @@ next-env.d.ts
 .env.local
 .env*.local
 
+cache/
 contracts/out/
 contracts/cache/
 contracts/broadcast/
 
 .DS_Store
 *.log
+AGENTS.md
